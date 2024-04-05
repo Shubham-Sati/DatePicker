@@ -28,3 +28,9 @@ Create a date range picker component in React and TypeScript that allows users t
     https://rsuitejs.com/components/date-range-picker/#predefined-date-ranges
 
 
+# Steps to configure repo
+
+     ●  Clone the repo
+     ●  Run command `npm install` in the root folder
+     ●  Run command `npm run dev` to run locally
+
