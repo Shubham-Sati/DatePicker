@@ -1,0 +1,15 @@
+:root {
+  font-family: sans-serif, Inter, system-ui, Avenir, Helvetica, Arial;
+  --border-color: rgb(229, 229, 234);
+  --button-bg-color: rgb(52,152,254); 
+  --text-color: rgb(22, 117, 224);
+  --heading-color: rgb(142, 142, 147);
+  --global-text-color: rgb(87, 87, 87);
+  --warning-text: rgb(204,51,0);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+

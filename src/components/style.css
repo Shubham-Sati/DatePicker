@@ -1,0 +1,121 @@
+.calender {
+  background-color: #faf5ef;
+  border-radius: 10px;
+  font-size: 14px;
+  color: var(--global-text-color);
+}
+
+.calender__header {
+  padding: 10px 15px;
+}
+
+hr {
+  margin-bottom: 5px;
+  border: 0.5px solid var( --border-color );
+}
+
+.calender__warning{
+  color: var( --warning-text );
+  padding: 25px;
+}
+
+.weeks {
+  color: var( --heading-color );
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.weekday {
+  font-size: 12px;
+  width: 20px;
+  text-align: start;
+  padding: 5px;
+  display: flex;
+}
+
+.matrix__week {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.matrix__week--day {
+  text-align: center;
+  width: 20px;
+  padding: 5px;
+}
+.matrix__week--day:hover {
+  color: var( --text-color );
+}
+
+.matrix__week--day-highlighted {
+    color: var( --text-color );
+  font-weight: bold;
+}
+
+.matrix__week--day > span:hover {
+  cursor: pointer;
+}
+
+.calender__navigation {
+  padding: 8px 30px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.calender__navigation--select {
+  appearance: none;
+}
+
+.calender__navigation--select {
+  border: none;
+  appearance: none; /* Standard */
+  -webkit-appearance: none; /* Chrome, Safari */
+  -moz-appearance: none; /* Firefox */
+  -ms-appearance: none; /* Internet Explorer/Edge */
+  -o-appearance: none; /*Opera */
+  outline: none;
+  text-align: center;
+  text-align-last:center;
+  -moz-text-align-last: center;
+  padding: 3px;
+  text-indent: 1px;
+  text-overflow: "";
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.calender__navigation--arrow {
+  cursor: pointer;
+}
+
+.calender__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 26px;
+}
+
+.calender__footer--rangesbar {
+  margin: 10px 0;
+  display: flex;
+  gap: 15px;
+  color: var( --text-color );
+  cursor: pointer;
+}
+
+.calender__footer--ranges:hover {
+  text-decoration: underline;
+}
+
+.calender__footer > button {
+  padding: 5px 13px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  background-color: var( --button-bg-color );
+  border: 1px solid var( --border-color );
+  border-radius: 10px;
+}
+
+.button__disable{
+    opacity: 0.5;
+}

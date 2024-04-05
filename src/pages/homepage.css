@@ -1,0 +1,42 @@
+.homepage {
+  padding: 2rem;
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.homepage__daterange {
+  padding: 10px;
+  width: 350px;
+  font-size: 13px;
+  border: 1px solid var( --border-color );
+  border-radius: 7px;
+  color: rgb(87, 87, 87);
+}
+
+.homepage__daterange:hover {
+  border: 1px solid var( --button-bg-color );
+}
+
+
+.homepage__footer {
+  padding: 10px;
+  width: 350px;
+  border: 1px solid rgb(229, 229, 234);
+  border: 1px solid var( --border-color );
+  border-radius: 7px;
+  color: var( --global-text-color );
+}
+
+.homepage__footer--row-heading {
+  padding: 5px;
+}
+
+.homepage__footer--row-headingcontent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 10px;
+}
