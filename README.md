@@ -30,7 +30,7 @@ Create a date range picker component in React and TypeScript that allows users t
 
 # Steps to configure repo
 
-     ●  Clone the repo
+     ●  Clone the repo `git clone https://github.com/Shubham-Sati/DatePicker.git`
      ●  Run command `npm install` in the root folder
      ●  Run command `npm run dev` to run locally
 
