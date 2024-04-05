@@ -2,10 +2,12 @@
 Create a date range picker component in React and TypeScript that allows users to select weekdays (Monday through Friday) and prevents them from selecting weekends (Saturday and Sunday). The component should include the following features:
 
 
-    ●   The component should allow users to select a date range defined by a start date and an end date. 
-        Remember that a start date and an end date must be a weekday and should not be a weekend.
+    ●   The component should allow users to select a date range defined by a start date 
+        and an end date.Remember that a start date and an end date must be a weekday and
+        should not be a weekend.
 
-    ●   The selected date range should highlight only weekdays and weekends should not be highlighted.
+    ●   The selected date range should highlight only weekdays and weekends should 
+        not be highlighted.
 
     ●   The user should be able to change the year displayed in the date picker.
 
